@@ -1,0 +1,7192 @@
+{
+  "name": "test1",
+  "seed": 42,
+  "turn": 0,
+  "score": 0,
+  "phase": "Map",
+  "overworld": {
+    "floors": [
+      {
+        "floor_num": 0,
+        "columns": [
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 0
+              },
+              "node_type": "Start",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 10
+                },
+                {
+                  "floor": 0,
+                  "index": 11
+                }
+              ],
+              "visited": true,
+              "cleared": true
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 10
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 20
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 11
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 21
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 12
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 21
+                },
+                {
+                  "floor": 0,
+                  "index": 20
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 13
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 20
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 20
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 30
+                },
+                {
+                  "floor": 0,
+                  "index": 31
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 21
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 31
+                },
+                {
+                  "floor": 0,
+                  "index": 30
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 30
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 41
+                },
+                {
+                  "floor": 0,
+                  "index": 42
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 31
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 42
+                },
+                {
+                  "floor": 0,
+                  "index": 41
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 40
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 51
+                },
+                {
+                  "floor": 0,
+                  "index": 50
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 41
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 42
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 52
+                },
+                {
+                  "floor": 0,
+                  "index": 50
+                },
+                {
+                  "floor": 0,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 50
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 60
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 51
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 60
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 52
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 61
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 60
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 71
+                },
+                {
+                  "floor": 0,
+                  "index": 70
+                },
+                {
+                  "floor": 0,
+                  "index": 72
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 61
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 72
+                },
+                {
+                  "floor": 0,
+                  "index": 73
+                },
+                {
+                  "floor": 0,
+                  "index": 71
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 70
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 81
+                },
+                {
+                  "floor": 0,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 71
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 72
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 81
+                },
+                {
+                  "floor": 0,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 73
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 81
+                },
+                {
+                  "floor": 0,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 80
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 90
+                },
+                {
+                  "floor": 0,
+                  "index": 91
+                },
+                {
+                  "floor": 0,
+                  "index": 92
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 81
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 93
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 90
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 100
+                },
+                {
+                  "floor": 0,
+                  "index": 101
+                },
+                {
+                  "floor": 0,
+                  "index": 102
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 91
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 100
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 92
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 101
+                },
+                {
+                  "floor": 0,
+                  "index": 103
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 93
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 102
+                },
+                {
+                  "floor": 0,
+                  "index": 103
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 100
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 101
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 102
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 0,
+                "index": 103
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 0,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 0,
+                "index": 999
+              },
+              "node_type": "Boss",
+              "connections": [],
+              "visited": false,
+              "cleared": false
+            }
+          ]
+        ],
+        "current_column": 0,
+        "current_node": {
+          "floor": 0,
+          "index": 0
+        }
+      },
+      {
+        "floor_num": 1,
+        "columns": [
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 0
+              },
+              "node_type": "Start",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 10
+                },
+                {
+                  "floor": 1,
+                  "index": 11
+                }
+              ],
+              "visited": true,
+              "cleared": true
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 10
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 20
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 11
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 20
+                },
+                {
+                  "floor": 1,
+                  "index": 21
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 12
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 21
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 20
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 30
+                },
+                {
+                  "floor": 1,
+                  "index": 31
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 21
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 31
+                },
+                {
+                  "floor": 1,
+                  "index": 30
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 30
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 40
+                },
+                {
+                  "floor": 1,
+                  "index": 41
+                },
+                {
+                  "floor": 1,
+                  "index": 42
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 31
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 42
+                },
+                {
+                  "floor": 1,
+                  "index": 43
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 40
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 50
+                },
+                {
+                  "floor": 1,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 41
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 42
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 50
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 43
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 50
+                },
+                {
+                  "floor": 1,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 50
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 60
+                },
+                {
+                  "floor": 1,
+                  "index": 61
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 51
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 61
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 60
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 71
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 61
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 72
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 70
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 71
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 82
+                },
+                {
+                  "floor": 1,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 72
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 81
+                },
+                {
+                  "floor": 1,
+                  "index": 82
+                },
+                {
+                  "floor": 1,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 80
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 90
+                },
+                {
+                  "floor": 1,
+                  "index": 91
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 81
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 90
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 82
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 91
+                },
+                {
+                  "floor": 1,
+                  "index": 90
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 90
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 100
+                },
+                {
+                  "floor": 1,
+                  "index": 101
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 91
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 100
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 100
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 101
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 1,
+                "index": 102
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 1,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 1,
+                "index": 999
+              },
+              "node_type": "Boss",
+              "connections": [],
+              "visited": false,
+              "cleared": false
+            }
+          ]
+        ],
+        "current_column": 0,
+        "current_node": {
+          "floor": 1,
+          "index": 0
+        }
+      },
+      {
+        "floor_num": 2,
+        "columns": [
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 0
+              },
+              "node_type": "Start",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 11
+                },
+                {
+                  "floor": 2,
+                  "index": 10
+                },
+                {
+                  "floor": 2,
+                  "index": 12
+                }
+              ],
+              "visited": true,
+              "cleared": true
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 10
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 21
+                },
+                {
+                  "floor": 2,
+                  "index": 20
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 11
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 20
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 12
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 22
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 13
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 22
+                },
+                {
+                  "floor": 2,
+                  "index": 20
+                },
+                {
+                  "floor": 2,
+                  "index": 21
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 20
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 31
+                },
+                {
+                  "floor": 2,
+                  "index": 30
+                },
+                {
+                  "floor": 2,
+                  "index": 32
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 21
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 32
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 22
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 32
+                },
+                {
+                  "floor": 2,
+                  "index": 31
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 30
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 40
+                },
+                {
+                  "floor": 2,
+                  "index": 41
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 31
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 40
+                },
+                {
+                  "floor": 2,
+                  "index": 41
+                },
+                {
+                  "floor": 2,
+                  "index": 42
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 32
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 41
+                },
+                {
+                  "floor": 2,
+                  "index": 40
+                },
+                {
+                  "floor": 2,
+                  "index": 42
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 33
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 42
+                },
+                {
+                  "floor": 2,
+                  "index": 41
+                },
+                {
+                  "floor": 2,
+                  "index": 40
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 40
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 50
+                },
+                {
+                  "floor": 2,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 41
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 52
+                },
+                {
+                  "floor": 2,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 42
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 50
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 60
+                },
+                {
+                  "floor": 2,
+                  "index": 61
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 51
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 60
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 52
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 61
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 53
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 61
+                },
+                {
+                  "floor": 2,
+                  "index": 60
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 60
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 70
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 61
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 72
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 70
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 81
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 71
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 80
+                },
+                {
+                  "floor": 2,
+                  "index": 81
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 72
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 73
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 81
+                },
+                {
+                  "floor": 2,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 80
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 90
+                },
+                {
+                  "floor": 2,
+                  "index": 91
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 81
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 90
+                },
+                {
+                  "floor": 2,
+                  "index": 91
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 90
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 101
+                },
+                {
+                  "floor": 2,
+                  "index": 100
+                },
+                {
+                  "floor": 2,
+                  "index": 102
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 91
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 100
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 100
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 101
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 2,
+                "index": 102
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 2,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 2,
+                "index": 999
+              },
+              "node_type": "Boss",
+              "connections": [],
+              "visited": false,
+              "cleared": false
+            }
+          ]
+        ],
+        "current_column": 0,
+        "current_node": {
+          "floor": 2,
+          "index": 0
+        }
+      },
+      {
+        "floor_num": 3,
+        "columns": [
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 0
+              },
+              "node_type": "Start",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 10
+                }
+              ],
+              "visited": true,
+              "cleared": true
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 10
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 21
+                },
+                {
+                  "floor": 3,
+                  "index": 22
+                },
+                {
+                  "floor": 3,
+                  "index": 20
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 11
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 22
+                },
+                {
+                  "floor": 3,
+                  "index": 23
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 12
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 22
+                },
+                {
+                  "floor": 3,
+                  "index": 23
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 20
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 30
+                },
+                {
+                  "floor": 3,
+                  "index": 31
+                },
+                {
+                  "floor": 3,
+                  "index": 32
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 21
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 31
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 22
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 33
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 23
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 33
+                },
+                {
+                  "floor": 3,
+                  "index": 32
+                },
+                {
+                  "floor": 3,
+                  "index": 30
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 30
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 40
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 31
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 40
+                },
+                {
+                  "floor": 3,
+                  "index": 41
+                },
+                {
+                  "floor": 3,
+                  "index": 42
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 32
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 41
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 33
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 42
+                },
+                {
+                  "floor": 3,
+                  "index": 40
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 40
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 50
+                },
+                {
+                  "floor": 3,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 41
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 51
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 42
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 51
+                },
+                {
+                  "floor": 3,
+                  "index": 50
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 50
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 61
+                },
+                {
+                  "floor": 3,
+                  "index": 62
+                },
+                {
+                  "floor": 3,
+                  "index": 60
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 51
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 63
+                },
+                {
+                  "floor": 3,
+                  "index": 60
+                },
+                {
+                  "floor": 3,
+                  "index": 61
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 60
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 70
+                },
+                {
+                  "floor": 3,
+                  "index": 71
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 61
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 72
+                },
+                {
+                  "floor": 3,
+                  "index": 71
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 62
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 72
+                },
+                {
+                  "floor": 3,
+                  "index": 73
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 63
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 73
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 70
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 71
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 80
+                },
+                {
+                  "floor": 3,
+                  "index": 82
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 72
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 82
+                },
+                {
+                  "floor": 3,
+                  "index": 81
+                },
+                {
+                  "floor": 3,
+                  "index": 83
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 73
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 82
+                },
+                {
+                  "floor": 3,
+                  "index": 83
+                },
+                {
+                  "floor": 3,
+                  "index": 80
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 80
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 90
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 81
+              },
+              "node_type": "Shop",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 90
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 82
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 90
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 83
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 91
+                },
+                {
+                  "floor": 3,
+                  "index": 90
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 90
+              },
+              "node_type": "Monster",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 100
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 91
+              },
+              "node_type": "Campfire",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 101
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 100
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            },
+            {
+              "id": {
+                "floor": 3,
+                "index": 101
+              },
+              "node_type": "Event",
+              "connections": [
+                {
+                  "floor": 3,
+                  "index": 999
+                }
+              ],
+              "visited": false,
+              "cleared": false
+            }
+          ],
+          [
+            {
+              "id": {
+                "floor": 3,
+                "index": 999
+              },
+              "node_type": "Boss",
+              "connections": [],
+              "visited": false,
+              "cleared": false
+            }
+          ]
+        ],
+        "current_column": 0,
+        "current_node": {
+          "floor": 3,
+          "index": 0
+        }
+      }
+    ],
+    "current_floor": 0,
+    "total_floors": 4,
+    "gold": 100,
+    "score_damage_dealt": 0
+  },
+  "tactical": null,
+  "lord": {
+    "level": 1,
+    "xp_progress": 0.0,
+    "character": {
+      "template": {
+        "id": 4294967295,
+        "name": "Lord Commander",
+        "unit_type": "Infantry",
+        "base_atk": 120,
+        "base_hp": 150,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Horizontal Slash",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.0,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Speed Boost",
+          "priority": "SkillPoint",
+          "description": "Increase own speed bar by 30%",
+          "effects": [
+            {
+              "SpeedBarBoost": {
+                "percent": 0.3,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Inspire",
+          "priority": "Cooldown",
+          "description": "Increase speed of all nearby allies by 25% (3 CD)",
+          "effects": [
+            {
+              "BuffSpd": {
+                "percent": 0.25,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "All-Out Charge",
+          "priority": "Energy",
+          "description": "Increase speed of all allies on the map by 20%",
+          "effects": [
+            {
+              "BuffSpd": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Double Time",
+          "priority": "Ultimate",
+          "description": "Double own speed for this battle",
+          "effects": [
+            {
+              "BuffSpd": {
+                "percent": 1.0,
+                "duration": 99,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      "star_level": 1,
+      "position": "Frontline",
+      "hp": 150,
+      "max_hp": 150,
+      "atk": 120,
+      "def": 0,
+      "spd": 100,
+      "active_points": 3,
+      "passive_points": 2,
+      "max_active_points": 3,
+      "max_passive_points": 2,
+      "energy": 0,
+      "cd_remaining": 0,
+      "ult_used": false,
+      "is_lord": true,
+      "is_dead": false,
+      "equipment": [],
+      "buffs": [],
+      "shield": 0,
+      "revived_once": false
+    },
+    "base_teams": 4
+  },
+  "pool": {
+    "unlocked_char_ids": [
+      441,
+      222,
+      395,
+      404,
+      207,
+      25,
+      426,
+      161,
+      869,
+      162,
+      235,
+      389,
+      905,
+      523,
+      775,
+      407,
+      942,
+      648,
+      150,
+      686,
+      662,
+      393,
+      910,
+      977,
+      885,
+      715,
+      925,
+      729,
+      211,
+      88,
+      90,
+      42,
+      635,
+      324,
+      392,
+      23,
+      763,
+      641,
+      606,
+      961,
+      141,
+      308,
+      892,
+      499,
+      254,
+      700,
+      797,
+      231,
+      539,
+      163
+    ],
+    "owned_characters": [
+      {
+        "id": 441,
+        "name": "Patricia Sartwell",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Patricia Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.9745099378799168,
+                "target": "EnemyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Phoenix Vibration of Wisdom",
+          "priority": "SkillPoint",
+          "description": "Phoenix Vibration of Wisdom skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5835277649901671,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Azure Insight",
+          "priority": "Cooldown",
+          "description": "Azure Insight cooldown ability (5 CD)",
+          "effects": [
+            {
+              "Stun": {
+                "duration": 1,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 5,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Fire Call",
+          "priority": "Energy",
+          "description": "Fire Call energy ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 2.9665389855970394,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Mighty Aegis",
+          "priority": "Ultimate",
+          "description": "Mighty Aegis ultimate (once per battle)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 2.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "BuffAtk": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 222,
+        "name": "Henry Lim",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Henry Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1286995527231487,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Emerald Flurry",
+          "priority": "SkillPoint",
+          "description": "Emerald Flurry skill point ability",
+          "effects": [
+            {
+              "Shield": {
+                "amount": 52,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Frost Wisdom",
+          "priority": "Cooldown",
+          "description": "Frost Wisdom cooldown ability (5 CD)",
+          "effects": [
+            {
+              "Stun": {
+                "duration": 1,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 5,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Venomous Chant",
+          "priority": "Energy",
+          "description": "Venomous Chant energy ability",
+          "effects": [
+            {
+              "BuffSpd": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 395,
+        "name": "Miranda Hambly",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Miranda Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.8x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8258380879526699,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Stunning Rush",
+          "priority": "SkillPoint",
+          "description": "Stunning Rush skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8,
+                "target": "EnemyAll"
+              }
+            },
+            {
+              "DebuffDef": {
+                "percent": 0.15,
+                "duration": 2,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Burning Madness",
+          "priority": "Cooldown",
+          "description": "Burning Madness cooldown ability (3 CD)",
+          "effects": [
+            {
+              "BuffDef": {
+                "percent": 0.3,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Storm Touch",
+          "priority": "Energy",
+          "description": "Storm Touch energy ability",
+          "effects": [
+            {
+              "BuffSpd": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 404,
+        "name": "Naomi Jowett",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Naomi Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.2x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1862335249658973,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Shadow Salvo of Glory",
+          "priority": "SkillPoint",
+          "description": "Shadow Salvo of Glory skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Guardian Salvo of Conquest",
+          "priority": "Cooldown",
+          "description": "Guardian Salvo of Conquest cooldown ability (3 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.617005180072416
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Amber Curse",
+          "priority": "Ultimate",
+          "description": "Amber Curse ultimate (once per battle)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 2.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "BuffAtk": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 207,
+        "name": "Hale Hankin",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Hale Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.9504627387297592,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Lion Rage",
+          "priority": "SkillPoint",
+          "description": "Lion Rage skill point ability",
+          "effects": [
+            {
+              "Shield": {
+                "amount": 35,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Scarlet Hex",
+          "priority": "Cooldown",
+          "description": "Scarlet Hex cooldown ability (2 CD)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 2.4156572966805157,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 2,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Earth Beat of the Bear",
+          "priority": "Energy",
+          "description": "Earth Beat of the Bear energy ability",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 0.5,
+                "target": "AllyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 25,
+        "name": "Ariana Hylan",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Ariana Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8565401883698363,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Ancient Flow of Ice",
+          "priority": "SkillPoint",
+          "description": "Ancient Flow of Ice skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.7304033020956209,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Eagle Aegis",
+          "priority": "Cooldown",
+          "description": "Eagle Aegis cooldown ability (3 CD)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 2.267530598446476,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Ivory Beam",
+          "priority": "Energy",
+          "description": "Ivory Beam energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Light Brand of Dawn",
+          "priority": "Ultimate",
+          "description": "Light Brand of Dawn ultimate (once per battle)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 4.0,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 426,
+        "name": "Octavia Olmsted",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Octavia Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.930018742322441,
+                "target": "EnemyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Arcane Salvo",
+          "priority": "SkillPoint",
+          "description": "Arcane Salvo skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Bear Gash",
+          "priority": "Cooldown",
+          "description": "Bear Gash cooldown ability (4 CD)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 2.0731988907359282,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Ebony Vision",
+          "priority": "Energy",
+          "description": "Ebony Vision energy ability",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 1.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 161,
+        "name": "Ewan Senff",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Ewan Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.0270962702456221,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": null,
+        "cd_skill": {
+          "name": "Mighty Corruption",
+          "priority": "Cooldown",
+          "description": "Mighty Corruption cooldown ability (3 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.7831133386782008
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Azure Cleave",
+          "priority": "Ultimate",
+          "description": "Azure Cleave ultimate (once per battle)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 2.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "BuffAtk": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 869,
+        "name": "Jason Hewitt",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Jason Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.0340623827554842,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Bronze Protection",
+          "priority": "SkillPoint",
+          "description": "Bronze Protection skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Iron Strike",
+          "priority": "Cooldown",
+          "description": "Iron Strike cooldown ability (2 CD)",
+          "effects": [
+            {
+              "Stun": {
+                "duration": 1,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 2,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Falcon Dream",
+          "priority": "Ultimate",
+          "description": "Falcon Dream ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 162,
+        "name": "Fabian Sheehan",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Fabian Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.0527865801616167,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Frost Whisper",
+          "priority": "SkillPoint",
+          "description": "Frost Whisper skill point ability",
+          "effects": [
+            {
+              "BuffAtk": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": null,
+        "energy_skill": {
+          "name": "Titan Intellect",
+          "priority": "Energy",
+          "description": "Titan Intellect energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Emerald Beam",
+          "priority": "Ultimate",
+          "description": "Emerald Beam ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 235,
+        "name": "Hugo Nelson",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Hugo Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.053511637124731,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Stunning Dream Wrath",
+          "priority": "SkillPoint",
+          "description": "Stunning Dream Wrath skill point ability",
+          "effects": [
+            {
+              "BuffAtk": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Burning Cadence of Fury",
+          "priority": "Cooldown",
+          "description": "Burning Cadence of Fury cooldown ability (2 CD)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 2.3175231122319717,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 2,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Storm Beat",
+          "priority": "Energy",
+          "description": "Storm Beat energy ability",
+          "effects": [
+            {
+              "BuffSpd": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 389,
+        "name": "Michelle Fowkes",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Michelle Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.9681954703254679,
+                "target": "EnemyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Bronze Volley",
+          "priority": "SkillPoint",
+          "description": "Bronze Volley skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8,
+                "target": "EnemyAll"
+              }
+            },
+            {
+              "DebuffDef": {
+                "percent": 0.15,
+                "duration": 2,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Iron Mark",
+          "priority": "Cooldown",
+          "description": "Iron Mark cooldown ability (3 CD)",
+          "effects": [
+            {
+              "BuffDef": {
+                "percent": 0.3,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Falcon Touch",
+          "priority": "Ultimate",
+          "description": "Falcon Touch ultimate (once per battle)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 4.0,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 905,
+        "name": "Kevin Randolph",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Kevin Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.8x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8288214797939,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Ancient Memory of the Dragon",
+          "priority": "SkillPoint",
+          "description": "Ancient Memory of the Dragon skill point ability",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 0.8062860144807524,
+                "target": "AllyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": null,
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Light Rebellion",
+          "priority": "Ultimate",
+          "description": "Light Rebellion ultimate (once per battle)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 2.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "BuffAtk": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 523,
+        "name": "Sibyl Pearce",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Sibyl Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.2x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1723101209202826,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Serpent Sever",
+          "priority": "SkillPoint",
+          "description": "Serpent Sever skill point ability",
+          "effects": [
+            {
+              "Shield": {
+                "amount": 63,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Violet Shout",
+          "priority": "Cooldown",
+          "description": "Violet Shout cooldown ability (4 CD)",
+          "effects": [
+            {
+              "BuffDef": {
+                "percent": 0.3,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Vengeful Touch",
+          "priority": "Ultimate",
+          "description": "Vengeful Touch ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 775,
+        "name": "Flavia Hicks",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Flavia Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.0196833451317733,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Obsidian Wave",
+          "priority": "SkillPoint",
+          "description": "Obsidian Wave skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Stunning Cry of the Bear",
+          "priority": "Cooldown",
+          "description": "Stunning Cry of the Bear cooldown ability (5 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.5891295685808822
+              }
+            }
+          ],
+          "cooldown_max": 5,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Storm Thought of Dawn",
+          "priority": "Ultimate",
+          "description": "Storm Thought of Dawn ultimate (once per battle)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 2.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "BuffAtk": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 407,
+        "name": "Nathaniel Kohn",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Nathaniel Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1380853594592388,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": null,
+        "cd_skill": {
+          "name": "Chaos Blast",
+          "priority": "Cooldown",
+          "description": "Chaos Blast cooldown ability (4 CD)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.9468681838393278,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 942,
+        "name": "Lorenzo Bouchard",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Lorenzo Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.9678669449230374,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Emerald Roar",
+          "priority": "SkillPoint",
+          "description": "Emerald Roar skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5037427463070994,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Frost Whisper Strike",
+          "priority": "Cooldown",
+          "description": "Frost Whisper Strike cooldown ability (3 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.6398450933473467
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 648,
+        "name": "Bernard Vane",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Bernard Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1406043838046203,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Blood Resonance of the Ancients",
+          "priority": "SkillPoint",
+          "description": "Blood Resonance of the Ancients skill point ability",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 0.6537673214302355,
+                "target": "AllyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": null,
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 150,
+        "name": "Eric Pride",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Eric Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.2x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1921904524055402,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Raging Strike",
+          "priority": "SkillPoint",
+          "description": "Raging Strike skill point ability",
+          "effects": [
+            {
+              "Shield": {
+                "amount": 43,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": null,
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 686,
+        "name": "Clayton Jewett",
+        "unit_type": "Flying",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Clayton Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.8x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8156685518557176,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Flying Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Bear Stance",
+          "priority": "SkillPoint",
+          "description": "Bear Stance skill point ability",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 0.6532888687839261,
+                "target": "AllyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Ebony Circle",
+          "priority": "Cooldown",
+          "description": "Ebony Circle cooldown ability (3 CD)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 0.8,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 662,
+        "name": "Cade Clermont",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Cade Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.2x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1666302190342028,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Venomous Rhythm",
+          "priority": "SkillPoint",
+          "description": "Venomous Rhythm skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Titan Revive",
+          "priority": "Cooldown",
+          "description": "Titan Revive cooldown ability (3 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.5256313800161327
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Frost Cleanse",
+          "priority": "Ultimate",
+          "description": "Frost Cleanse ultimate (once per battle)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 5.0,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 393,
+        "name": "Minerva Gray",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Minerva Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.2x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1576998668240344,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Gentle Thread of the Eagle",
+          "priority": "SkillPoint",
+          "description": "Gentle Thread of the Eagle skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8,
+                "target": "EnemyAll"
+              }
+            },
+            {
+              "DebuffDef": {
+                "percent": 0.15,
+                "duration": 2,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Piercing Toxin",
+          "priority": "Cooldown",
+          "description": "Piercing Toxin cooldown ability (3 CD)",
+          "effects": [
+            {
+              "BuffDef": {
+                "percent": 0.3,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Golden Mend of Spring",
+          "priority": "Ultimate",
+          "description": "Golden Mend of Spring ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 910,
+        "name": "Klaus Rudd",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Klaus Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8672677623532569,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Solar Storm",
+          "priority": "SkillPoint",
+          "description": "Solar Storm skill point ability",
+          "effects": [
+            {
+              "BuffAtk": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": null,
+        "energy_skill": {
+          "name": "Raging Weave",
+          "priority": "Energy",
+          "description": "Raging Weave energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 977,
+        "name": "Matthew Ludington",
+        "unit_type": "Flying",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Matthew Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8955193711011565,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Flying Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Cleansing Bolt",
+          "priority": "SkillPoint",
+          "description": "Cleansing Bolt skill point ability",
+          "effects": [
+            {
+              "BuffAtk": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Frostbite Pulse",
+          "priority": "Cooldown",
+          "description": "Frostbite Pulse cooldown ability (5 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.468419054289884
+              }
+            }
+          ],
+          "cooldown_max": 5,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 885,
+        "name": "Julian Marble",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Julian Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.9473662413059769,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Light Rip",
+          "priority": "SkillPoint",
+          "description": "Light Rip skill point ability",
+          "effects": [
+            {
+              "Shield": {
+                "amount": 67,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Ancient Growl of Lightning",
+          "priority": "Cooldown",
+          "description": "Ancient Growl of Lightning cooldown ability (4 CD)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 2.589351865192773,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Eagle Strike",
+          "priority": "Energy",
+          "description": "Eagle Strike energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 715,
+        "name": "Diana Priest",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Diana Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8526529914372133,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Stunning Surge of Dawn",
+          "priority": "SkillPoint",
+          "description": "Stunning Surge of Dawn skill point ability",
+          "effects": [
+            {
+              "Shield": {
+                "amount": 48,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Burning Shout",
+          "priority": "Cooldown",
+          "description": "Burning Shout cooldown ability (3 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.4540180883289655
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 925,
+        "name": "Leonard Taney",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Leonard Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.102495995166772,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Eagle Pillage of Lords",
+          "priority": "SkillPoint",
+          "description": "Eagle Pillage of Lords skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8,
+                "target": "EnemyAll"
+              }
+            },
+            {
+              "DebuffDef": {
+                "percent": 0.15,
+                "duration": 2,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Ivory Hex of the Serpent",
+          "priority": "Cooldown",
+          "description": "Ivory Hex of the Serpent cooldown ability (4 CD)",
+          "effects": [
+            {
+              "Stun": {
+                "duration": 1,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Ancient Blink of Fire",
+          "priority": "Ultimate",
+          "description": "Ancient Blink of Fire ultimate (once per battle)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 5.0,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 729,
+        "name": "Eadric Sipple",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Eadric Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.9655452468869513,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Iron Leap",
+          "priority": "SkillPoint",
+          "description": "Iron Leap skill point ability",
+          "effects": [
+            {
+              "Shield": {
+                "amount": 57,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Demonic Whisper",
+          "priority": "Cooldown",
+          "description": "Demonic Whisper cooldown ability (3 CD)",
+          "effects": [
+            {
+              "BuffDef": {
+                "percent": 0.3,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Falcon Blast",
+          "priority": "Energy",
+          "description": "Falcon Blast energy ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 3.412632380713374,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Bronze Wall",
+          "priority": "Ultimate",
+          "description": "Bronze Wall ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 211,
+        "name": "Harold Holcombe",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Harold Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.8x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8216965329950694,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": null,
+        "cd_skill": null,
+        "energy_skill": {
+          "name": "Dark Insight",
+          "priority": "Energy",
+          "description": "Dark Insight energy ability",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 0.5,
+                "target": "AllyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 88,
+        "name": "Conrad Wheelock",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Conrad Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.0850879550391102,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Blood Howl",
+          "priority": "SkillPoint",
+          "description": "Blood Howl skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": null,
+        "energy_skill": {
+          "name": "Raven Reverb",
+          "priority": "Energy",
+          "description": "Raven Reverb energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 90,
+        "name": "Corbin Wiman",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Corbin Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.0281562709932834,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Holy Echo",
+          "priority": "SkillPoint",
+          "description": "Holy Echo skill point ability",
+          "effects": [
+            {
+              "BuffAtk": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Solar Beat",
+          "priority": "Cooldown",
+          "description": "Solar Beat cooldown ability (3 CD)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 2.085862088951395,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 42,
+        "name": "Benjamin McNutt",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Benjamin Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.091437800707555,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Titan Barrier",
+          "priority": "SkillPoint",
+          "description": "Titan Barrier skill point ability",
+          "effects": [
+            {
+              "Shield": {
+                "amount": 56,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Emerald Rhythm",
+          "priority": "Cooldown",
+          "description": "Emerald Rhythm cooldown ability (4 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.739216813243455
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Frost Weave of the Bear",
+          "priority": "Energy",
+          "description": "Frost Weave of the Bear energy ability",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 0.5,
+                "target": "AllyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 635,
+        "name": "Audrey Sizer",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Audrey Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.2x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1886404279966574,
+                "target": "EnemyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Stunning Ward",
+          "priority": "SkillPoint",
+          "description": "Stunning Ward skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Burning Wisdom",
+          "priority": "Cooldown",
+          "description": "Burning Wisdom cooldown ability (3 CD)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 2.345963050471135,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 324,
+        "name": "Levi McLoughlin",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Levi Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8771512396130805,
+                "target": "EnemyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Shadow Vibration",
+          "priority": "SkillPoint",
+          "description": "Shadow Vibration skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8,
+                "target": "EnemyAll"
+              }
+            },
+            {
+              "DebuffDef": {
+                "percent": 0.15,
+                "duration": 2,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Guardian Wisdom",
+          "priority": "Cooldown",
+          "description": "Guardian Wisdom cooldown ability (2 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.3215339792073253
+              }
+            }
+          ],
+          "cooldown_max": 2,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Amber Storm",
+          "priority": "Ultimate",
+          "description": "Amber Storm ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 392,
+        "name": "Milton Golding",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Milton Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.8x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8272660142095796,
+                "target": "EnemyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Fierce Song Pride",
+          "priority": "SkillPoint",
+          "description": "Fierce Song Pride skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.4556210617586758,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": null,
+        "energy_skill": {
+          "name": "Stellar Toxin",
+          "priority": "Energy",
+          "description": "Stellar Toxin energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Silver Thought",
+          "priority": "Ultimate",
+          "description": "Silver Thought ultimate (once per battle)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 2.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "BuffAtk": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 23,
+        "name": "Archer Holman",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Archer Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.105703489932097,
+                "target": "EnemyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Vengeful Rush of Hope",
+          "priority": "SkillPoint",
+          "description": "Vengeful Rush of Hope skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Serpent Posture",
+          "priority": "Cooldown",
+          "description": "Serpent Posture cooldown ability (4 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.7961998946053994
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Violet Steal",
+          "priority": "Energy",
+          "description": "Violet Steal energy ability",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 1.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Thunder Bless of Lightning",
+          "priority": "Ultimate",
+          "description": "Thunder Bless of Lightning ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 763,
+        "name": "Eva Estes",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Eva Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.0052850457341347,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Serpent Cloak Song",
+          "priority": "SkillPoint",
+          "description": "Serpent Cloak Song skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.7047216774958367,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": null,
+        "energy_skill": {
+          "name": "Thunder Reverb",
+          "priority": "Energy",
+          "description": "Thunder Reverb energy ability",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 0.5,
+                "target": "AllyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Vengeful Shell of Summer",
+          "priority": "Ultimate",
+          "description": "Vengeful Shell of Summer ultimate (once per battle)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 4.0,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 641,
+        "name": "Bard Sulzberger",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Bard Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.9037333831291295,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Fire Thought",
+          "priority": "SkillPoint",
+          "description": "Fire Thought skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Mighty Shield of Glory",
+          "priority": "Cooldown",
+          "description": "Mighty Shield of Glory cooldown ability (3 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.5331119889259297
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Phoenix Cut of Mercy",
+          "priority": "Energy",
+          "description": "Phoenix Cut of Mercy energy ability",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 1.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Azure Burst",
+          "priority": "Ultimate",
+          "description": "Azure Burst ultimate (once per battle)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 5.0,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 606,
+        "name": "Abigail McKellar",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Abigail Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.114232295923765,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Bear Tear",
+          "priority": "SkillPoint",
+          "description": "Bear Tear skill point ability",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 0.9072767013813703,
+                "target": "AllyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Ebony Guard",
+          "priority": "Cooldown",
+          "description": "Ebony Guard cooldown ability (4 CD)",
+          "effects": [
+            {
+              "BuffDef": {
+                "percent": 0.3,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 961,
+        "name": "Magnus Harley",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Magnus Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.2x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1674033883513866,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Fire Charge",
+          "priority": "SkillPoint",
+          "description": "Fire Charge skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8,
+                "target": "EnemyAll"
+              }
+            },
+            {
+              "DebuffDef": {
+                "percent": 0.15,
+                "duration": 2,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Mighty Rhythm of the Dragon",
+          "priority": "Cooldown",
+          "description": "Mighty Rhythm of the Dragon cooldown ability (5 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.2090342042348823
+              }
+            }
+          ],
+          "cooldown_max": 5,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Phoenix Dream",
+          "priority": "Energy",
+          "description": "Phoenix Dream energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Azure Mark",
+          "priority": "Ultimate",
+          "description": "Azure Mark ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 141,
+        "name": "Ella Nevins",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Ella Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1094466480908185,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Azure Veil",
+          "priority": "SkillPoint",
+          "description": "Azure Veil skill point ability",
+          "effects": [
+            {
+              "BuffAtk": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Fire Roar",
+          "priority": "Cooldown",
+          "description": "Fire Roar cooldown ability (5 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.5695455715091318
+              }
+            }
+          ],
+          "cooldown_max": 5,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Mighty Tear",
+          "priority": "Energy",
+          "description": "Mighty Tear energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 308,
+        "name": "Kyle Irons",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Midline",
+        "normal_attack": {
+          "name": "Kyle Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8775207295431868,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Indigo Wrath",
+          "priority": "SkillPoint",
+          "description": "Indigo Wrath skill point ability",
+          "effects": [
+            {
+              "BuffAtk": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Blood Volley",
+          "priority": "Cooldown",
+          "description": "Blood Volley cooldown ability (2 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.5529474443744031
+              }
+            }
+          ],
+          "cooldown_max": 2,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Celestial Flow",
+          "priority": "Energy",
+          "description": "Celestial Flow energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 892,
+        "name": "Kara Moreland",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Kara Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.0x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.9667328135866182,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Rapid Roar",
+          "priority": "SkillPoint",
+          "description": "Rapid Roar skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.5,
+                "target": "EnemyHighestAtk"
+              }
+            },
+            {
+              "EnergyGain": {
+                "amount": 20,
+                "target": "Self_"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Stellar Posture",
+          "priority": "Cooldown",
+          "description": "Stellar Posture cooldown ability (4 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.7608986463609737
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Silver Brand of Eternity",
+          "priority": "Energy",
+          "description": "Silver Brand of Eternity energy ability",
+          "effects": [
+            {
+              "Cleanse": {
+                "target": "AllAllies"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 0.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 499,
+        "name": "Rudolph Keffer",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Rudolph Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.141499469584055,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Shielding Ward of Light",
+          "priority": "SkillPoint",
+          "description": "Shielding Ward of Light skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.78190208856546,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Spirit Bless",
+          "priority": "Cooldown",
+          "description": "Spirit Bless cooldown ability (4 CD)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 0.8,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Jade Weave",
+          "priority": "Energy",
+          "description": "Jade Weave energy ability",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 0.5,
+                "target": "AllyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Piercing Uprising",
+          "priority": "Ultimate",
+          "description": "Piercing Uprising ultimate (once per battle)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 2.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "BuffAtk": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 254,
+        "name": "Ivor Schwab",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Ivor Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.9x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8665297097528731,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Savage Storm",
+          "priority": "SkillPoint",
+          "description": "Savage Storm skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.6582195060717566,
+                "target": "EnemyFront"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Crystal Beam",
+          "priority": "Cooldown",
+          "description": "Crystal Beam cooldown ability (3 CD)",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 2.0700869860800584,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 3,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 700,
+        "name": "Cyrus McIntosh",
+        "unit_type": "Swimming",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Cyrus Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1082274241141568,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Swim Move",
+          "priority": "Move",
+          "description": "Move up to 4 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 4
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Crimson Strike",
+          "priority": "SkillPoint",
+          "description": "Crimson Strike skill point ability",
+          "effects": [
+            {
+              "BuffAtk": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Blade Whisper of the Ancients",
+          "priority": "Cooldown",
+          "description": "Blade Whisper of the Ancients cooldown ability (4 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.6790126542905268
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Dragon Thrust",
+          "priority": "Ultimate",
+          "description": "Dragon Thrust ultimate (once per battle)",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 2.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "BuffAtk": {
+                "percent": 0.5,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 797,
+        "name": "Giselle Miranda",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Giselle Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.1x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.0500820845256484,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Crushing Dash",
+          "priority": "SkillPoint",
+          "description": "Crushing Dash skill point ability",
+          "effects": [
+            {
+              "BuffAtk": {
+                "percent": 0.2,
+                "duration": 2,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Cleansing Cry Roar",
+          "priority": "Cooldown",
+          "description": "Cleansing Cry Roar cooldown ability (4 CD)",
+          "effects": [
+            {
+              "BuffDef": {
+                "percent": 0.3,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Frostbite Rend of Shadow",
+          "priority": "Energy",
+          "description": "Frostbite Rend of Shadow energy ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 3.218346112748312,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": null
+      },
+      {
+        "id": 231,
+        "name": "Howard Mendenhall",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Backline",
+        "normal_attack": {
+          "name": "Howard Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.8x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8464357521318265,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Calm Swift",
+          "priority": "SkillPoint",
+          "description": "Calm Swift skill point ability",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 0.5956558397603378,
+                "target": "AllyLowestHp"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": null,
+        "energy_skill": null,
+        "ultimate": {
+          "name": "Steel Hex",
+          "priority": "Ultimate",
+          "description": "Steel Hex ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      },
+      {
+        "id": 539,
+        "name": "Tabitha Sherill",
+        "unit_type": "Cavalry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Tabitha Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 1.2x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 1.1916234291336525,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Cavalry Move",
+          "priority": "Move",
+          "description": "Move up to 5 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 5
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": null,
+        "cd_skill": {
+          "name": "Piercing Cry",
+          "priority": "Cooldown",
+          "description": "Piercing Cry cooldown ability (5 CD)",
+          "effects": [
+            {
+              "AoEDamage": {
+                "multiplier": 1.6465501297659737
+              }
+            }
+          ],
+          "cooldown_max": 5,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": null,
+        "ultimate": null
+      },
+      {
+        "id": 163,
+        "name": "Faye Shriver",
+        "unit_type": "Infantry",
+        "base_atk": 100,
+        "base_hp": 100,
+        "base_spd": 100,
+        "preferred_position": "Frontline",
+        "normal_attack": {
+          "name": "Faye Strike",
+          "priority": "NormalAttack",
+          "description": "Normal attack dealing 0.8x damage",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8065582154033321,
+                "target": "EnemyHighestAtk"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "move_skill": {
+          "name": "Infantry Move",
+          "priority": "Move",
+          "description": "Move up to 3 tiles",
+          "effects": [
+            {
+              "MoveSkill": {
+                "range": 3
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "sp_skill": {
+          "name": "Thunder Strike of Kings",
+          "priority": "SkillPoint",
+          "description": "Thunder Strike of Kings skill point ability",
+          "effects": [
+            {
+              "Damage": {
+                "multiplier": 0.8,
+                "target": "EnemyAll"
+              }
+            },
+            {
+              "DebuffDef": {
+                "percent": 0.15,
+                "duration": 2,
+                "target": "EnemyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 1
+        },
+        "cd_skill": {
+          "name": "Vengeful Growl",
+          "priority": "Cooldown",
+          "description": "Vengeful Growl cooldown ability (4 CD)",
+          "effects": [
+            {
+              "BuffDef": {
+                "percent": 0.3,
+                "duration": 3,
+                "target": "AllAllies"
+              }
+            }
+          ],
+          "cooldown_max": 4,
+          "energy_cost": 0,
+          "sp_cost": 0
+        },
+        "energy_skill": {
+          "name": "Serpent Pulse",
+          "priority": "Energy",
+          "description": "Serpent Pulse energy ability",
+          "effects": [
+            {
+              "Heal": {
+                "multiplier": 1.5,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 100,
+          "sp_cost": 0
+        },
+        "ultimate": {
+          "name": "Violet Howl of Wisdom",
+          "priority": "Ultimate",
+          "description": "Violet Howl of Wisdom ultimate (once per battle)",
+          "effects": [
+            {
+              "Revive": {
+                "hp_percent": 1.0,
+                "target": "AllyAll"
+              }
+            },
+            {
+              "Heal": {
+                "multiplier": 1.0,
+                "target": "AllyAll"
+              }
+            }
+          ],
+          "cooldown_max": 0,
+          "energy_cost": 0,
+          "sp_cost": 0
+        }
+      }
+    ],
+    "owned_equipment": [
+      {
+        "name": "Iron Sword",
+        "abilities": [
+          {
+            "AtkPercent": 0.1
+          }
+        ]
+      },
+      {
+        "name": "Counter Gauntlets",
+        "abilities": [
+          {
+            "AtkPercent": 0.1
+          },
+          {
+            "CounterChance": 0.15
+          }
+        ]
+      },
+      {
+        "name": "War Banner",
+        "abilities": [
+          {
+            "AtkPercent": 0.05
+          },
+          {
+            "DefPercent": 0.05
+          }
+        ]
+      }
+    ],
+    "owned_relics": [],
+    "owned_potions": [
+      {
+        "name": "Healing Potion",
+        "kind": "Potion",
+        "uses": 1
+      },
+      {
+        "name": "Healing Potion",
+        "kind": "Potion",
+        "uses": 1
+      }
+    ],
+    "owned_food": [
+      {
+        "name": "Travel Bread",
+        "kind": "Food",
+        "uses": 3
+      }
+    ],
+    "duplicate_char_counts": {
+      "254": 1,
+      "163": 1,
+      "407": 1,
+      "892": 1,
+      "977": 1,
+      "211": 1,
+      "308": 1,
+      "395": 1,
+      "231": 1,
+      "404": 1,
+      "729": 1,
+      "141": 1,
+      "235": 1,
+      "207": 1,
+      "925": 1,
+      "42": 1,
+      "150": 1,
+      "161": 1,
+      "686": 1,
+      "389": 1,
+      "25": 1,
+      "635": 1,
+      "869": 1,
+      "797": 1,
+      "775": 1,
+      "662": 1,
+      "942": 1,
+      "426": 1,
+      "648": 1,
+      "885": 1,
+      "715": 1,
+      "88": 1,
+      "905": 1,
+      "90": 1,
+      "324": 1,
+      "539": 1,
+      "523": 1,
+      "606": 1,
+      "961": 1,
+      "222": 1,
+      "392": 1,
+      "23": 1,
+      "641": 1,
+      "910": 1,
+      "499": 1,
+      "700": 1,
+      "162": 1,
+      "393": 1,
+      "441": 1,
+      "763": 1
+    }
+  },
+  "global_xp": 0,
+  "global_unlocks": []
+}
